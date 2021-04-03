@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/*"
+  to = "/login"
+  from = "/*"
+  to = "/signup"
+  
