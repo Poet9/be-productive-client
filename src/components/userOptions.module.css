@@ -1,0 +1,59 @@
+.userOptions{
+   transform: translateX(-200px);
+   width: 250px;
+   height: 180px;
+   display: none;
+   background-color: #fff;
+   margin: 5px;
+}
+.userOptions li{
+   width: 210px;
+   margin: 10px 20px 0 5px;
+   border-bottom: 1px solid #333;
+   text-align: left;
+}
+.userOptions .optionLiButton {
+   border: none !important;
+}
+.userOptions li:hover{
+   transform: none;
+}
+.userOptions .optionsLink {
+   text-decoration: none;
+   font-family: Prociono, sans-serif;
+   color: black;
+   padding: 10px;
+   transition: .3s;
+}
+.userOptions .optionsLink:hover{
+   font-size: 18px;
+}
+.userOptions button {
+   display: block;
+   width: 150px;
+   height: fit-content;
+   border: 1px solid #333;
+   padding: 5px;
+   margin: 5px 0 0 30px;
+   font-family: Prociono, sans-serif;
+   font-size: 16px;
+   cursor: pointer;
+   color: #111;
+   box-shadow: none;
+   background: #fff;
+   border-radius: 3px;
+}
+.userOptions button:hover{
+   transform: none;
+   background-color: #fff;
+
+}
+/*********** close button ********/
+.userOptions .closeUserOption{
+   align-content: right;
+   height: 30px;
+}
+.userOptions .closeUserOption img{
+   width: 25px;
+   margin: 2px;
+}

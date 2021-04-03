@@ -1,0 +1,59 @@
+/**************** sign in ******************/
+
+.forms {
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+.sign{
+  width: 300px;
+  display: inline-block;
+}
+.forms p {
+  text-align: left;
+  font-size: 36px;
+  font-weight: 600;
+  margin: 10px 15px;
+  color: #333;
+}
+.sign input {
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 20px;
+  width: 87%;
+  border-bottom: 2px solid #000;
+}
+.sign button {
+  transform: translateY(-30px);
+  align-self: right;
+  width: 95%;
+  padding: 15px 0;
+  font-size: 20px;
+  border-radius: 5px;
+  color: #f8f8f8;
+  cursor: pointer;
+  margin: 15px 0;
+  background-color: #0385ff;
+}
+.sign input:focus,
+.sign button:focus {
+  outline: none;
+}
+.sign button:hover {
+  background-color: #0066ff;
+}
+.forms .passLabel{
+  display: block;
+}
+.forms .passIcon{
+  width: 35px;
+  transform: translate(125px, -45px);
+  opacity: 70%;
+}
+.forms .errorSpan {
+  transform: translateY(-30px);
+  color: red;
+  display: block;
+  margin-left: 10px;
+  text-align: left;
+}

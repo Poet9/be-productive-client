@@ -1,0 +1,8 @@
+.aboutPage {
+  height: 100vh;
+  margin: 10px;
+}
+
+.aboutPage p {
+  font-size: 16px;
+}

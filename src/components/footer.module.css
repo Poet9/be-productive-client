@@ -1,0 +1,14 @@
+/**************** footer *****************/
+
+footer {
+  width: 100%;
+  background: #003d76;
+  margin-top: auto;
+}
+.rights {
+  margin-top: 50px;
+  text-align: center;
+  font-family: Prociono;
+  font-size: 26px;
+  color: rgba(255, 255, 255, 0.38);
+}

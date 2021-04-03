@@ -1,0 +1,26 @@
+/*********************** MAIN PAGE **********************/
+.mainContainer {
+  background: url("../images/BP-desktop.png") no-repeat
+    center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: cover;
+  height: 100vh;
+}
+.cleanYM {
+  margin-left: 80px;
+  font-family: Russo One;
+  font-size: 52px;
+  color: #00cffd;
+  transform: rotate(-5.06deg);
+}
+@media(max-width: 500px){
+  .mainContainer {
+    background: url("../images/BP-aim-design.png") no-repeat
+    center;
+  }
+  .cleanYM{
+    display: none;
+  }
+}

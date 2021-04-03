@@ -1,0 +1,115 @@
+.accSettings{
+   height: 100vh;
+   margin: 10px;
+   padding: 10px;
+   text-align: center;
+}
+/***** gen setting for the user info *********/
+.accSettings .userSettingContainer{
+   display: inline-block;
+   height: 350px;
+}
+.accSettings .userSpan{
+   margin-top: 25px;
+   min-height: 180px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+/********************** display user info styling ******************/
+.accSettings .userSpan .infoDisplay{
+   padding: 10px;
+   text-align: left;
+   border-bottom: 2px solid #333;
+}
+.accSettings .userSpan strong{
+   margin-right: 20px;
+}
+.accSettings .userSpan .editBtn,
+.accSettings .userSpan .deleteUserBtn{
+   margin: 10px;
+   padding: 10px 20px;
+   font-size: 16px;
+   color: #fff;
+   background-color: #1d7521;
+   cursor: pointer;
+   transition: .2s;
+}
+.accSettings .userSpan .deleteUserBtn{
+   background-color: #c41919;
+   padding: 10px 15px;
+}
+/********************** form to change user styling ******************/
+.accSettings .userSpan input{
+   font-size: 16px;
+   padding: 7px;
+   margin: 10px;
+   border: 2px solid #333;
+   border-radius: 5px;
+   transition: .2s;
+}
+.accSettings .userSpan input:focus{
+   outline: none;
+   border: 2px solid #c12;
+   margin-right: 25px;
+}
+
+.accSettings .userSpan .changedSpan{
+   padding: 10px;
+   border-radius: 3px;
+   font-size: 14px;
+   background-color: #ca3030;
+   color: #fff;
+   border: 1px 2px solid #000;
+}
+.accSettings .userSpan .userChangeSubmit{
+   margin: 10px;
+   padding: 10px;
+   font-size: 16px;
+   color: #fff;
+   background-color: #1d7521;
+   cursor: pointer;
+   transition: .2s;
+}
+.accSettings .userSpan .userChangeSubmit:hover{
+   background-color: #098a10;
+}
+.accSettings .userSpan .userChangeSubmit:focus{
+   outline: none;
+}
+/****** error displayer p *****/
+.userSpan .userSetErrorP{
+   color: red;
+}
+/********* logout button ******/
+
+.accSettings .logoutAllBtn{
+   margin: 10px;
+   padding: 10px 15px;
+   font-size: 16px;
+   color: #fff;
+   background-color: #1200b1;
+   cursor: pointer;
+   transition: .2s;
+}
+.accSettings .logoutAllBtn:hover{
+   background-color: #1c08d4;
+}
+/***************** screen resolution stuff ***********/
+@media (max-width: 450px){
+   .accSettings .userSpan input{
+      display: block;
+   }
+   .accSettings .userSpan .changedSpan{
+      display: block;
+      text-align: center;
+      margin: 10px 60px 0 10px;
+   }
+   .accSettings .userSpan .usernameDiv,
+   .accSettings .userSpan .emailDiv,
+   .accSettings .userSpan .passwordDiv{
+      padding-bottom: 10px;
+      display: inline-block;
+   }
+}

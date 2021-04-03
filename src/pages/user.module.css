@@ -1,0 +1,69 @@
+.userMain {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  min-height: 500px;
+  font-family: "Lucida Sans", "Lucida Grande", Verdana, sans-serif;
+  overflow-x: auto;
+  scrollbar-arrow-color: #000;
+}
+ /************* task containers styling **********/
+.taskContainerTitle {
+  display: block;
+  margin: -5px -5px 10px -5px;
+  color: white;
+  background-color: #333;
+  font-size: 26px;
+  padding: 10px 0 15px 0;
+  border-radius: 5px;
+}
+.urgentTask,
+.inprogressTask,
+.doneTask,
+.todoTask {
+  border: 1px solid #333;
+  padding: 10px;
+  min-width: 220px;
+  margin: 10px;
+  box-shadow: 2px 3px 5px #555;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+}
+.urgentTask:hover {
+  border: 1px solid #c24;
+  box-shadow: 2px 7px 5px #912;
+}
+.urgentTask .taskContainerTitle {
+  background-color: #c12;
+}
+.doneTask:hover {
+  border: 1px solid #4b2;
+  box-shadow: 2px 7px 5px #291;
+}
+.doneTask .taskContainerTitle {
+  background-color: #291;
+}
+.todoTask:hover {
+  border: 1px solid #24c;
+  box-shadow: 2px 7px 5px #129;
+}
+.todoTask .taskContainerTitle {
+  background-color: #129;
+}
+.inprogressTask:hover {
+  border: 1px solid #81c;
+  box-shadow: 2px 7px 5px #519;
+}
+.inprogressTask .taskContainerTitle {
+  background-color: #519;
+}
+@media(max-width: 1100px){
+  .userMain{
+    justify-content: start;
+  }
+  .doneTask{
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,28 @@
+.taskComponent {
+  width: 100%;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 3px 0;
+  cursor: pointer;
+  transition: .2s;
+  text-align: left;
+}
+.taskComponent .deleteBtn {
+  display: flex;
+  justify-content: space-between;
+}
+.taskComponent .deleteBtn span {
+  height: 15px;
+  width: 40%;
+  margin: 5px;
+  border-radius: 3px;
+}
+.taskComponent p {
+  font-size: 20px;
+  text-align: left;
+  margin: 5px 10px;
+  padding-bottom: 5px;
+}
+.taskComponent .deleteIcon {
+  width: 25px;
+}

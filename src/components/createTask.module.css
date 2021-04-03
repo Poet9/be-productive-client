@@ -1,0 +1,65 @@
+/*********** form task styling **********/
+
+.createTaskContainer {
+   position: absolute;
+   top: 150px;
+   left: 0;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+ }
+ .formTask {
+   background-color: #fff;
+   border-radius: 5px;
+   display: flex;
+   flex-direction: column;
+   padding: 5px 10px 25px 10px;
+   box-shadow: 2px 7px 5px #333;
+   width: 50%;
+ }
+ /******* close button ******/
+ .createTaskContainer .closeBtn{
+   text-align: right;
+ }
+ .createTaskContainer .closeBtn img{
+  width: 25px;
+  cursor: pointer;
+ }
+ .formTask input {
+   margin: 5px 0 20px 0;
+   padding: 10px;
+   border: 1px solid #333;
+   border-radius: 5px;
+ }
+ .formTask button {
+   background-color: #008ae0;
+   border-radius: 5px;
+   cursor: pointer;
+   color: #fff;
+   font-size: 18px;
+   padding: 10px;
+   margin: 20px 0 5px 0;
+ }
+ .formTask button:hover {
+   background-color: #24a0ed;
+ }
+ .formTask input:focus,
+ .formTask textarea:focus {
+   outline: none;
+   border: 1px solid #f21;
+ }
+ .formTask button:focus {
+   outline: none;
+   background-color: #24a0ed;
+ }
+/****** text style ***/
+.formTask h2{
+  text-align: left;
+  margin: 10px 5px 5px 5px;
+  font-size: 24px;
+}
+.formTask p{
+  text-align: left;
+  margin: 0 5px 15px 5px;
+  font-size: 16px;
+}
